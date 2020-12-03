@@ -1,5 +1,5 @@
 def part1():
-    file1 = open('numbers', 'r')
+    file1 = open('input', 'r')
     lines = file1.readlines()
 
     for x in lines:
@@ -8,7 +8,7 @@ def part1():
                 print(int(y) * int(x))
 
 def part2():
-    file1 = open('numbers', 'r')
+    file1 = open('input', 'r')
     lines = file1.readlines()
 
     for x in lines:
